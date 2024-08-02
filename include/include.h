@@ -21,7 +21,7 @@
 #include "aboutWindow.h"
 #include "menus.h"
 
-#define CONFIGPATH "/Harry Potter II"
+#define CONFIGPATH "/Brother Bear"
 #define GAMEINI "%s/Game.ini"
 #define USERINI "%s/User.ini"
 
@@ -29,7 +29,7 @@
 #define DEF_USERINI "DefUser.ini"
 
 #ifdef _DEBUG
-#define DGVOODOOCONF "C:/Program Files/EA Games/Harry Potter and the Chamber of Secrets/system/dgVoodoo.conf"
+#define DGVOODOOCONF "C:/Program Files/Disney Interactive/Brother Bear/system/dgVoodoo.conf"
 #else
 #define DGVOODOOCONF "dgVoodoo.conf"
 #endif
@@ -41,9 +41,9 @@
 
 #define RUN_COMMAND "Game.exe"
 #define LOAD " -LOADGAME=0 -SAVESLOT="
-#define START " PrivetDr.unr -SAVESLOT="
+#define START " CavePainting1.unr -SAVESLOT="
 
-#define VERSION L"Version v1.2"
+#define VERSION L"Version v1.0"
 #define GITLINK L"https://github.com/AsayuGit"
 
 #endif
